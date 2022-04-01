@@ -124,20 +124,7 @@
     </footer>
 
 
-<div id="hidden">HIDDEN TEXT</div>
-<div id="show" onclick="return show('hidden', 50);">SHOW</div>
-<div id="hide">HIDE</div>
 
-<script type="text/javascript">
-    function show(id, speed) {
-        var ID = setInterval(function() {
-            if (document.getElementById(id).style.opacity>1) {
-                clearInterval(ID);
-            }
-            document.getElementById(id).style.opacity += 0.1;
-        }, speed);
-    }
-</script>
 <script>
     function myFunction() {
         var x = document.getElementById("myLinks");
